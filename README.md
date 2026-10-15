@@ -158,21 +158,21 @@ Administrator Computer
 
 The following screenshots document the configuration and testing performed in this practical.
 
-|              Screenshot              |              Description                 |
-|--------------------------------------|------------------------------------------|
-| `01_Inbound_Rules_Configuration.png` | Initial inbound SSH rule configuration   |
-| `02_Instance_Launch_Success.png`     | Successful EC2 instance launch           |
-| `03_Verified_Inbound_Rules.png`      | Verified inbound firewall rules          |
-| `04_Verified_Outbound_Rules.png`     | Outbound security group rule             |
-| `05_SSH_Connection.png`              | Successful SSH login                     |
-| `06_SSH_Connection_Verification.png` | Linux username and hostname verification |
-| `07_HTTP_Inbound_Rule.png`           | HTTP inbound rule configuration          |
-| `08_Nginx_Service_Running.png`       | Nginx service status                     |
-| `09_Public_HTTP_Test.png`            | Public Nginx welcome page                |
-| `10_Blocked_Port_Test.png`           | Failed TCP port 8080 connection attempt  |
-| `11_Final_Firewall_Rules.png`        | Final inbound firewall configuration     |
+|                        Screenshot                 |              Description                 |
+|---------------------------------------------------|------------------------------------------|
+| `Screenshorts/01_Inbound_Rules_Configuration.png` | Initial inbound SSH rule configuration   |
+| `Screenshorts/02_Instance_Launch_Success.png`     | Successful EC2 instance launch           |
+| `Screenshorts/03_Verified_Inbound_Rules.png`      | Verified inbound firewall rules          |
+| `Screenshorts/04_Verified_Outbound_Rules.png`     | Outbound security group rule             |
+| `Screenshorts/05_SSH_Connection.png`              | Successful SSH login                     |
+| `Screenshorts/06_SSH_Connection_Verification.png` | Linux username and hostname verification |
+| `Screenshorts/07_HTTP_Inbound_Rule.png`           | HTTP inbound rule configuration          |
+| `Screenshorts/08_Nginx_Service_Running.png`       | Nginx service status                     |
+| `Screenshorts/09_Public_HTTP_Test.png`            | Public Nginx welcome page                |
+| `Screenshorts/10_Blocked_Port_Test.png`           | Failed TCP port 8080 connection attempt  |
+| `Screenshorts/11_Final_Firewall_Rules.png`        | Final inbound firewall configuration     |
 
-The screenshots are intended to be stored in the `screenshots/` directory.
+The screenshots are stored in the Screenshorts/ directory.
 
 ## 11. Security Best Practices
 
